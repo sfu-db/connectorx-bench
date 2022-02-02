@@ -90,7 +90,7 @@ CREATE TABLE DDOS (
 );
 
 .mode csv
-.import '| tail -n +2 ddos.csv' DDOS
+.import '| tail -n +2 /path/to/ddos.csv' DDOS
 
 UPDATE DDOS SET Flow_Byts_s = NULL WHERE Flow_Byts_s = '';
 UPDATE DDOS SET Flow_Pkts_s = NULL WHERE Flow_Pkts_s = '';

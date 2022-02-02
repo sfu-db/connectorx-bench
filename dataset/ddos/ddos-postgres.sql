@@ -89,5 +89,5 @@ CREATE TABLE DDOS (
 	Label			VARCHAR(6)
 );
 
-\copy DDOS FROM '/home/ubuntu/scripts/ddos.csv' DELIMITER ',' ENCODING 'LATIN1' CSV HEADER;
+\copy DDOS FROM '/path/to/ddos.csv' DELIMITER ',' ENCODING 'LATIN1' CSV HEADER;
 

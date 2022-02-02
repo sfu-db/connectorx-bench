@@ -91,7 +91,7 @@ CREATE TABLE DDOS (
 );
 
 BULK INSERT DDOS
-FROM '/tmp/ddos.csv'
+FROM '/path/to/ddos.csv'
 WITH
 (
 	    FORMAT = 'CSV', 
