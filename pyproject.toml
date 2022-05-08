@@ -14,7 +14,8 @@ pyarrow = {version = ">=4", optional = true}
 python = ">=3.7.1,<3.11"
 numpy = ">=1.21.5"
 connectorx = ">=0.2.4a6"
-turbodbc = "^4.3.0"
+# turbodbc = "^4.3.0"
+pandas-redshift = "^2.0.5"
 
 [tool.poetry.extras]
 all = ["dask", "pandas", "modin", "polars", "pyarrow"]

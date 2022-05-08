@@ -1,6 +1,6 @@
 """
 Usage:
-  tpch-cx.py [--protocol=<protocol>] [--conn=<conn>] [--ret=<ret>] <num>
+  ddos-cx.py [--protocol=<protocol>] [--conn=<conn>] [--ret=<ret>] <num>
 
 Options:
   --protocol=<protocol>  The protocol to use [default: binary].
